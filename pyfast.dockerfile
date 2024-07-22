@@ -15,4 +15,4 @@ COPY . /app
 
 RUN chmod 777 /app/run_genai_server_startup.sh
 
-CMD ["/bin/bash", "-c", "/app/run_genai_server_startup.sh"]
+CMD ["/bin/bash", "-c", "/app/run_server_startup.sh"]
